@@ -9,6 +9,6 @@ myHeading.textContent = 'Hello world!';
 function ouch() {
     count = (count+1)%3
     myHeading.style.color=cols[count]
-    //alert('Ouch! Stop poking me!');
+    alert('Happy birthday dad!');
 }
 document.getElementById("dave").onclick = ouch
